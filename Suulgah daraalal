@@ -1,0 +1,24 @@
+1.python3 -m venv venv
+2.source venv/bin/activate
+3.pip install fastapi uvicorn
+4.uvicorn main:app --reload --> asaah command
+
+
+
+
+http://127.0.0.1:8000/docs --> api list харна
+
+
+
+Section 2
+
+DB user uusgeh
+CREATE USER 'api_user'@'%' IDENTIFIED BY 'StrongPassword123!';
+GRANT SELECT, INSERT, UPDATE, DELETE ON way_academy.* TO 'api_user'@'%';
+FLUSH PRIVILEGES;
+
+pip install fastapi uvicorn sqlalchemy pymysql python-dotenv
+
+
+
+

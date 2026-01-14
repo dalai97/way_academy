@@ -1,3 +1,4 @@
+#FastAPI суулгах болон ажиллуулах
 1.python3 -m venv venv
 2.source venv/bin/activate
 3.pip install fastapi uvicorn
@@ -5,12 +6,11 @@
 
 
 
-
+#API list харах
 http://127.0.0.1:8000/docs --> api list харна
 
 
-
-Section 2
+#DB үүсгэх
 
 DB user uusgeh
 CREATE USER 'api_user'@'%' IDENTIFIED BY 'StrongPassword123!';
@@ -20,6 +20,6 @@ FLUSH PRIVILEGES;
 pip install fastapi uvicorn sqlalchemy pymysql python-dotenv
 
 
-
+#production ажлуулах
 uvicorn main:app --host 0.0.0.0 --port 10000
 production дээр ажлуулахдаа command
